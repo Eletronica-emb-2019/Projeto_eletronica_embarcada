@@ -1,6 +1,4 @@
-Repositório desenvolvido para a disciplina de Eletrônica Embarcada
-
-
+Repositório desenvolvido para a disciplina de Eletrônica Embarcada, no qual desenvolver-se-á um projeto de controlador de abastecimento de um foguete de competição.
 
 O repositório está divido em três partes: Pontos de Controle, Códigos e Documentos de apoio.
 
