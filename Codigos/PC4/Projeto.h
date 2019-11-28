@@ -8,6 +8,7 @@
 #ifndef PROJETO_H_
 #define PROJETO_H_
 
+//header responsável por chamar as funções em assembly para serem usadas em C
 
 void    delay(int T_ms);
 int     convert();
