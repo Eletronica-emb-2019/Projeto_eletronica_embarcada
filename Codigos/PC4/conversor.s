@@ -17,17 +17,17 @@
 
 convert:
 
-               mov.w	#SREF_0+ADC10SHT_2+ADC10ON, ADC10CTL0;declarando conversor AD
-               mov.w	#INCH_4+SHS_0+ADC10DIV_0+ADC10SSEL_0+CONSEQ_0, ADC10CTL1; SELECIONANDO P1.4
-	       mov.w	#BIT4, ADC10AE0; selecionando p1.4
-	       add.w	#ENC, ADC10CTL0
+               		   mov.w	#SREF_0+ADC10SHT_2+ADC10ON, ADC10CTL0				;declarando conversor AD
+             		   mov.w	#INCH_4+SHS_0+ADC10DIV_0+ADC10SSEL_0+CONSEQ_0, ADC10CTL1	; SELECIONANDO P1.4
+	       	           mov.w	#BIT4, ADC10AE0							; selecionando p1.4
+	      		   add.w	#ENC, ADC10CTL0
 	
 LEITURA:
-			   add.w #ADC10SC, ADC10CTL0; inicia conversão
+			   add.w #ADC10SC, ADC10CTL0							; inicia conversão
 LOOP:
-			   bit.w 	#BUSY, ADC10CTL1; espera terminar conversão
+			   bit.w 	#BUSY, ADC10CTL1						; espera terminar conversão
 			   jnz		LOOP
-			   mov.w	ADC10MEM, R12; após converter, salva em R12 para ser usado na main.c
-			   ret					 ; finaliza subrotina
+			   mov.w	ADC10MEM, R12							; após converter, salva em R12 (padrão do CCS) para ser usado na main.c
+			   ret			     							; finaliza subrotina
 
-			.end
+			   .end
