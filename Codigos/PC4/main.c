@@ -273,7 +273,7 @@ void leitura(void)
           temp_init= 0;
           for (i = 0; i<20; i++){ // REALIZA 20 LEITURAS PARA SE TER UMA BOA AMOSTRAGEM
           temperature = convert();// CHAMA FUNÇÃO EM ASSEMBLY CONVERT QUE REALIZA A CONVERSÃO AD DOS DADOS DE TEMPERATURA
-          temperature = temperature*700/1024.0; // MULTIPLICA POR ESSES VALORES PARA OBTER VALOR CERTO DE TEMPERATURA
+          temperature = temperature*355/1024.0; // MULTIPLICA POR ESSES VALORES PARA OBTER VALOR CERTO DE TEMPERATURA
           temp_init = temp_init + temperature; // VAI SOMANDO A TEMPERATURA DE CADA PONTO
           delay(100); // ATRASO PARA DIMINUIR ERROS PROPAGADOS AO SEREM REALIZADAS LEITURAS EM CURTO PERÍODO DE TEMPO
         }
@@ -289,7 +289,7 @@ void leitura(void)
 
       for (i = 0; i<10; i++){ // REALIZA O MESMO PROCEDIMENTO ACIMA, PORÉM PARA A TEMPERATURA DE CADA PONTO
                 temperature = convert();
-                temperature = temperature*700/1024.0; // MULTIPLICA POR ESSES VALORES PARA OBTER VALOR CERTO DE TEMPERATURA
+                temperature = temperature*355/1024.0; // MULTIPLICA POR ESSES VALORES PARA OBTER VALOR CERTO DE TEMPERATURA
                 temperature2 = temperature2 + temperature;
         delay(100);
     }
