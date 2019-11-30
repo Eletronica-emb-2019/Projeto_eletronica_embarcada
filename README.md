@@ -10,6 +10,7 @@ A pasta Pontos de Controle armazena todos os pontos de controle já elaborados.
 Arquivos da pasta: PC1_Wemerson_LucasGCampos.docx; PC1_Wemerson_LucasGCampos.pdf; PC2_Wemerson_LucasGCampos.docx; PC2_Wemerson_LucasGCampos.pdf; PC3_Wemerson_LucasGCampos.docx; PC3_Wemerson_LucasGCampos.pdf; PC4_Wemerson_LucasGCampos.docx; PC4_Wemerson_LucasGCampos.pdf
 
 A pasta Códigos armazena todos os códigos, tanto em Energia como em C, já feitos.
-Arquivos da pasta: CodigoPC2.ino; PC3.c
+Arquivos da pasta: CodigoPC2.ino; CodigoPC3.c
+Também possui um subdiretório nomeado PC4 contendo: 
 
 
