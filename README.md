@@ -11,6 +11,6 @@ Arquivos da pasta: PC1_Wemerson_LucasGCampos.docx; PC1_Wemerson_LucasGCampos.pdf
 
 A pasta Códigos armazena todos os códigos, tanto em Energia como em C, já feitos.
 Arquivos da pasta: CodigoPC2.ino; CodigoPC3.c
-Também possui um subdiretório nomeado PC4 contendo: Projeto.h; reversors.s; delay_ms.s; main.c
+Também possui um subdiretório nomeado PC4 contendo: Projeto.h; conversors.s; delay_ms.s; main.c
 
 
